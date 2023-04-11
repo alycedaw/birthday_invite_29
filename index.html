@@ -25,26 +25,19 @@
         font-size: 1.1rem;
         margin-bottom: 1.5rem;
     }
-    .movie-options {
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
+    ul {
+        list-style: none;
+        padding: 0;
     }
-    .movie-option {
-        width: 200px;
-        padding: 10px;
-        background-color: #fff;
-        border: 1px solid #444;
-        border-radius: 8px;
-        margin: 10px;
-        text-align: left;
+    li {
+        margin-bottom: 5px;
     }
-    .movie-option img {
-        width: 100%;
-        border-radius: 4px;
-        margin-bottom: 10px;
+    .credit {
+        font-size: 0.8rem;
+        margin-top: 2rem;
+        color: #888;
     }
-    .rsvp {
+    .calendar-download {
         font-size: 1.2rem;
         color: #fff;
         background-color: #ea7e8e;
@@ -53,32 +46,27 @@
         text-decoration: none;
         display: inline-block;
     }
-    .credit {
-        font-size: 0.8rem;
-        margin-top: 2rem;
-        color: #888;
-    }
 </style>
 </head>
 <body>
     <h1>Alyce's 29th Birthday Party!</h1>
-    <h2>Join me to celebrate!</h2>
+    <h2>Join us to celebrate!</h2>
     <p>
-        Date: April 18th, 6pm<br>
-        Location: Megaplex Theatre, Lehi, UT
+        Movie: Suzume<br>
+        Date: April 18th, 5:30pm<br>
+        Location: Fat Cats, Saratoga Springs, UT
     </p>
-    <div class="movie-options">
-        <div class="movie-option">
-            <img src="super_mario_movie.jpg" alt="Super Mario Bros Movie">
-            <p>The Super Mario Bros Movie</p>
-        </div>
-        <div class="movie-option">
-            <img src="suzume_movie.jpg" alt="Suzume">
-            <p>Suzume</p>
-        </div>
-    </div>
-    <p>Please RSVP by April 11th and let me know which movie you'd like to see.</p>
-    <a href="mailto:5164541@gmail.com?subject=Alyce's 29th Birthday RSVP" class="rsvp">RSVP Now</a>
+    <h2>Guest List:</h2>
+    <ul>
+        <li>Jenna</li>
+        <li>Tyler</li>
+        <li>Steven</li>
+        <li>Savannah</li>
+        <li>Mom</li>
+        <li>Dad</li>
+    </ul>
+    <p>We'll have dessert after the movie!</p>
+    <a href="Alyce_29th_Birthday.ics" download class="calendar-download">Download Calendar Event</a>
     <p class="credit">This invitation was generated courtesy of ChatGPT.</p>
 </body>
 </html>

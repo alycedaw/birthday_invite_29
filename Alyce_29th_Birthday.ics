@@ -1,0 +1,10 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+BEGIN:VEVENT
+DTSTART:20230418T173000
+DTEND:20230418T203000
+SUMMARY:Alyce's 29th Birthday Party
+DESCRIPTION:Join us for Alyce's 29th birthday celebration! We'll be watching Suzume at Fat Cats in Saratoga Springs, UT, followed by dessert.
+LOCATION:Fat Cats\, Saratoga Springs\, UT
+END:VEVENT
+END:VCALENDAR
